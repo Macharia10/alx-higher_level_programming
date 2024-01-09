@@ -2,11 +2,12 @@
 
 import sys
 
-args = sys.argv[1:]
+if __name__ = "__main__":
+    args = sys.argv[1:]
 
-result = 0
+    result = 0
 
-for arg in args:
-    result += int(arg)
+    for arg in args:
+        result += int(arg)
 
-print(result)
+    print(result)
